@@ -4,6 +4,7 @@ const API_BASE_URL = import.meta.env.PROD
   ? ""
   : (import.meta.env.VITE_API_BASE_URL || "").replace(/\/$/, "");
 
+  console.log(API_BASE_URL,'API_BASE_URL');
 function ChatPage({ dog, onBack }) {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
