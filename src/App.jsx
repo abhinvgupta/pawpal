@@ -8,7 +8,7 @@ const dogs = [
     name: "Milo",
     breed: "Golden Retriever",
     age: "2 years",
-    image: "https://placedog.net/500/280?id=1",
+    image: "/golden-retriever.webp",
     traits: ["charming", "playful", "friendly"],
   },
   {
@@ -16,7 +16,7 @@ const dogs = [
     name: "Luna",
     breed: "French Bulldog",
     age: "1 year",
-    image: "https://placedog.net/500/280?id=2",
+    image: "bulldog.jpg",
     traits: ["cute", "curious", "loyal"],
   },
   {
@@ -24,7 +24,7 @@ const dogs = [
     name: "Rocky",
     breed: "German Shepherd",
     age: "3 years",
-    image: "https://placedog.net/500/280?id=3",
+    image: "/german-shephard.jpg",
     traits: ["protective", "smart", "alert"],
   },
   {
@@ -32,7 +32,7 @@ const dogs = [
     name: "Bella",
     breed: "Beagle",
     age: "4 years",
-    image: "https://placedog.net/500/280?id=4",
+    image: "/beagle.jpg",
     traits: ["charming", "energetic", "social"],
   },
   {
@@ -40,7 +40,7 @@ const dogs = [
     name: "Daisy",
     breed: "Poodle",
     age: "2 years",
-    image: "https://placedog.net/500/280?id=5",
+    image: "/poodle.webp",
     traits: ["elegant", "smart", "calm"],
   },
   {
@@ -48,7 +48,7 @@ const dogs = [
     name: "Max",
     breed: "Boxer",
     age: "5 years",
-    image: "https://placedog.net/500/280?id=6",
+    image: "/boxer.jpg",
     traits: ["goofy", "strong", "friendly"],
   },
   {
@@ -56,7 +56,7 @@ const dogs = [
     name: "Nala",
     breed: "Shiba Inu",
     age: "2 years",
-    image: "https://placedog.net/500/280?id=7",
+    image: "shiba-inu.avif",
     traits: ["independent", "cute", "confident"],
   },
   {
@@ -64,7 +64,7 @@ const dogs = [
     name: "Bruno",
     breed: "Rottweiler",
     age: "4 years",
-    image: "https://placedog.net/500/280?id=8",
+    image: "/rottweiller.avif",
     traits: ["angry", "protective", "brave"],
   },
 ];
