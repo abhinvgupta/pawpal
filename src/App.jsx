@@ -16,7 +16,7 @@ const dogs = [
     name: "Luna",
     breed: "French Bulldog",
     age: "1 year",
-    image: "bulldog.jpg",
+    image: "/bulldog.jpg",
     traits: ["cute", "curious", "loyal"],
   },
   {
@@ -56,7 +56,7 @@ const dogs = [
     name: "Nala",
     breed: "Shiba Inu",
     age: "2 years",
-    image: "shiba-inu.avif",
+    image: "/shiba-inu.avif",
     traits: ["independent", "cute", "confident"],
   },
   {
