@@ -69,10 +69,10 @@ body::after {
 .header {
   margin: 0;
   text-align: center;
-  background: linear-gradient(135deg, #c7f0ea, #73cfc1 52%, #3f9fb8);
-  border: 1px solid #78c8cf;
+  background: linear-gradient(135deg, #ffe5c7, #ffbe86 52%, #ff9f5f);
+  border: 1px solid #f1a568;
   border-radius: var(--radius-lg);
-  padding: 0.45rem 1rem 0.7rem;
+  padding: 0.5rem 1rem 0.8rem;
   box-shadow: var(--shadow-soft);
   animation: float-in 450ms ease-out;
 }
@@ -85,15 +85,23 @@ body::after {
 }
 
 .header img {
-  width: min(235px, 72vw);
+  width: min(160px, 55vw);
   height: auto;
 }
 
+.header-title {
+  margin: 0.1rem 0 0;
+  font-family: "Baloo 2", "Nunito", sans-serif;
+  font-size: clamp(1.7rem, 3vw, 2.2rem);
+  line-height: 1;
+  color: #6f3f1f;
+}
+
 .header p {
-  margin: 0.05rem 0 0;
+  margin: 0.2rem 0 0;
   font-size: 0.94rem;
   line-height: 1.35;
-  color: #0f4960;
+  color: #7a4b2f;
 }
 
 .section {

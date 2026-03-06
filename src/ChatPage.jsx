@@ -1,5 +1,9 @@
 import { useMemo, useState } from "react";
 
+const API_BASE_URL = import.meta.env.PROD
+  ? ""
+  : (import.meta.env.VITE_API_BASE_URL || "").replace(/\/$/, "");
+
 function ChatPage({ dog, onBack }) {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
@@ -25,7 +29,7 @@ function ChatPage({ dog, onBack }) {
     setIsSending(true);
 
     try {
-      const response = await fetch("/api/chat", {
+      const response = await fetch(`${API_BASE_URL}/api/chat`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -46,7 +50,6 @@ function ChatPage({ dog, onBack }) {
           ],
         }),
       });
-
       if (!response.ok) {
         const body = await response.json().catch(() => ({}));
         const message = body?.error?.message ?? "OpenAI request failed.";
